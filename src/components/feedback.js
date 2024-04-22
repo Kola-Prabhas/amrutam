@@ -96,9 +96,16 @@ function Feedback() {
 
 	return ( 
 		<div className="bg-[#FFF7E2] py-12">
-			<h3 className="text-[#3A643B] text-[32px] px-4 text-center font-bold font-robo my-8">
-				Stories from our valued customers!
-			</h3>
+			<div className="text-center mb-12">
+				<h3 className="text-[#3A643B] inline-block text-[32px] lg:text-[48px] px-4 text-center font-bold font-robo my-8">
+					Stories from our valued customers!
+					<hr className='hidden lg:block -mt-[18px] -z-10 bg-[#abdcac] h-1.5' />
+				</h3>
+
+			</div>
+
+	
+			
 
 			<div
 				ref={scrollContainer}
