@@ -1,6 +1,6 @@
 function HomeApp() {
 	return ( 
-		<div className="bg-[#FFF7E2] py-12 px-8 lg:px-20 lg:flex items-center justify-center border border-black gap-4">
+		<div className="bg-[#FFF7E2] py-12 px-8 lg:px-20 lg:flex items-center justify-center gap-4">
 			<div className='space-y-8'>
 				<h3 className="text-[#3A643B] leading-none text-center lg:text-left font-robo text-[32px] lg:text-[48px] font-bold">Amrutam Home App</h3>
 				<p className="text-[#676767] mx-auto lg:mx-0 text-[14px] lg:text-[16px] max-w-[450px]">
